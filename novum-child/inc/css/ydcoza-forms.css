@@ -1,0 +1,351 @@
+/*----------------------------------------YDCOZA----------------------------------------*/
+/* Forms  */
+/*--------------------------------------------------------------------------------------*/
+form p {
+    margin-bottom: 0;
+}
+label {
+    display: block;
+    line-height: 2;
+}
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.fluentform input.ff-el-form-control,
+input[type="text"], 
+input[type="password"], 
+input[type="number"], 
+input[type="search"], 
+input[type="email"], 
+input[type="url"], 
+input[type="tel"], 
+input[type="time"],
+input[type="date"], 
+input[type="week"], 
+input[type="month"],
+input[type="datetime-local"],
+textarea, 
+select {
+    width: 100%!important;
+    padding: 8px 15px !important;
+    resize: none !important;
+    margin: 0 !important;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    font-weight: normal !important;
+    line-height: 1.4 !important;
+    /*color: #CDDBE3 !important;*/ /* YDCOZA */ 
+    color: #0e0e0e !important;
+    background-color: white;
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+    border: 1px solid #494e50 !important;
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px; 
+}
+textarea {
+    height: auto !important;
+}
+.fluentform .ff-el-form-control:focus,
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="url"]:focus, 
+input[type="password"]:focus, 
+input[type="search"]:focus, 
+input[type="tel"]:focus, 
+input[type="number"]:focus, 
+input[type="tel"]:focus, 
+textarea:focus, 
+select:focus {
+    /*background: #305D45;*/
+    outline: none !important;
+    border: 1px solid #CDDBE3 !important;
+    background-color: #fff;
+    color: #0e0e0e;
+}
+
+*:focus {
+    outline: none !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #494e50 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #494e50 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #494e50 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #494e50 !important;
+}
+
+
+
+.ydcoza-location-accordion .su-spoiler-title,
+body .lmp_button,
+.lmp_button:hover,
+.lmp_button:focus,
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button,
+body.woocommerce .ydcoza-outer-box a.button,
+body #wpsl-search-btn.button,
+body form.frm-fluent-form .ff-btn-submit,
+body .fluentform .ff-btn,
+.button,
+body.woocommerce .woocommerce-message a.button,
+button, 
+html input[type=button], 
+input[type=reset], 
+input[type=submit],
+a.reset_variations {
+    font-family: Eurostile, sans-serif !important;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #494e50;
+    background-image:none;
+    /*text-transform: capitalize;*/
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    margin-bottom: 5px;
+    border: 1px solid #494e50;
+    -webkit-border-radius: 3px !important; 
+    -moz-border-radius: 3px !important;  
+    border-radius: 3px !important;
+    color: white;
+    font-size: 18px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    box-shadow:none;
+    text-align: center;
+    /*white-space: nowrap;*/
+    vertical-align: middle;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.woocommerce #respond input#submit:disabled {
+    color: white !important;
+}
+body .ydcoza-location-accordion .su-spoiler-title:hover,
+body #infinite-handle span button:hover,
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button:hover,
+body #wpsl-search-btn.button:hover,
+body form.frm-fluent-form .ff-btn-submit:hover,
+body .fluentform .ff-btn:hover,
+.button:hover,
+body.woocommerce .woocommerce-message a.button:hover,
+button:hover, 
+html input[type=button]:hover,
+input[type=reset]:hover, 
+input[type=submit]:hover,
+a.reset_variations:hover {
+    border-color: #CDDBE3;
+    background: #CDDBE3;
+    color: white;
+}
+.button.button-mediun {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+body button.ywgc_apply_gift_card_button {
+    background-color: #494e50 !important;
+}
+body button.ywgc_apply_gift_card_button:hover {
+    background-color: #cddbe3 !important;
+}
+body.woocommerce .ydcoza-outer-box a.button:hover{
+    color: #ffffff !important;
+    background-color: #CDDBE3 !important;
+}
+button.light,
+.button.light {  
+    color: #494e50;
+    background: white;
+    border-color: white;
+}
+body .ydcoza-location-accordion .su-spoiler-title,
+body.woocommerce .ydcoza-outer-box a.button.outline,
+.button.outline,
+a.reset_variations {
+    background-color: white;
+    border: 1px solid #494e50;
+    color: #494e50;
+}
+body .ydcoza-location-accordion .su-spoiler-title:hover,
+body.woocommerce .ydcoza-outer-box a.button.outline:hover,
+.button.outline:hover,
+a.reset_variations:hover {
+    border: 1px solid #CDDBE3;
+}
+
+.site-footer form{
+  margin-top: 16px;
+}
+.site-footer form.frm-fluent-form .ff-btn-submit {
+    padding: 10px 30px;
+    margin-bottom: 0;
+    background: #53585A;
+    border: 1px solid white;
+    color: white;
+}
+.site-footer .fluentform .ff-el-group {
+    margin-bottom: 10px;
+}
+body form.frm-fluent-form .ff-btn-submit:hover,
+body .fluentform .ff-btn:hover,
+.site-footer input[type=submit]:hover {
+    background: #CDDBE3;
+    border-color: #CDDBE3;
+    opacity: 1;
+}
+body .fluentform .ff-el-is-error .text-danger {
+    font-size: 14px;
+    color: red;
+}
+
+body .fluentform .text-danger {
+    color: red;
+}
+body .ff-errors-in-stack .error {
+    font-size: 16px;
+}
+.ff-errors-in-stack {
+    padding: 15px;
+    background-color: #f4f4f4;
+}
+
+
+.site-footer  div.wpcf7 .ajax-loader {
+    position: absolute;
+    right: 140px;
+}
+span.wpcf7-not-valid-tip,
+._error._below,
+._error._above{
+    margin: -10px 0 10px 20px;
+    font-size: 0.8em;
+}
+._error._below,
+._error._above {
+    color: #f00;
+}
+div.wpcf7-response-output {
+    margin: 0;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.ff-message-success {
+    background-color: #CDDBE3;
+}
+.ff-message-success p {
+    margin-bottom: 0;
+}
+/*----------------------------------------YDCOZA----------------------------------------*/
+/* Bookly  */
+/*--------------------------------------------------------------------------------------*/
+/* Form Elements */
+body .bookly-form * {
+    font-size: 16px !important;
+}
+body .bookly-form input[type="text"],
+body .bookly-form input[type="number"],
+body .bookly-form input[type="password"],
+body .bookly-form select,
+body .bookly-form textarea {
+    font-size: 16px !important;
+    border: 1px solid #929eaa !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important; 
+    border-radius: 3px !important;
+    color: #494e50 !important;
+}
+
+body .bookly-form input[type="text"],
+body .bookly-form input[type="number"],
+body .bookly-form input[type="password"],
+body .bookly-form textarea {
+    padding: 8px 8px 7px !important;
+}
+body .bookly-form select {
+    padding: 8px 8px 7px !important;
+}
+body .bookly-form label {
+    font-size: 16px !important;
+}
+body .bookly-form body .bookly-label-error {
+    font-size: 14px !important;
+    font-weight: bold;
+}
+body .bookly-form-group > div {
+    margin: 5px 14px 0 0;
+}
+body .bookly-form .bookly-label-error{
+    font-size: 14px !important;
+    color: red !important;
+}
+body .bookly-form .picker__day--infocus:not(.picker__day--disabled) {
+    color: #6ec1e4 !important;
+}
+
+#billing_country_field {
+    margin-bottom: 15px;
+}
+
+.woocommerce-privacy-policy-text a:hover {
+    color: #494e50 !important;
+}
+
+.woocommerce-page #payment button#place_order {
+    color: white;
+    background-color: #494e50;
+    border: 1px solid #494e50;
+    margin-top: 20px;
+}
+.woocommerce-page #payment button#place_order:hover {
+    background-color: #6ec1e4;
+    border: 1px solid #6ec1e4;
+}
+.woocommerce #payment #place_order, 
+.woocommerce-page #payment #place_order {
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 120%;
+    text-transform: capitalize;
+}
+
+.wpmc-nav-wrapper {
+    justify-content: flex-start;
+}
+button#wpmc-back-to-cart {
+    margin-right: 20px;
+}
+.wpmc-nav-wrapper #wpmc-next {
+    margin-left: auto;
+}
+
+.rs-layer.rev-btn {
+    background-color: #494e50 !important;
+}
+.rs-layer.rev-btn:hover,
+.rs-layer.rev-btn:focus {
+    background-color: black !important;
+}

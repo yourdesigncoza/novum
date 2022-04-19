@@ -1,0 +1,429 @@
+/*
+Accent : #6ec1e4
+Font : #494e50
+banner : #CDDBE3
+*/
+
+@media (max-width: 768px) {
+    /* CSS in here for mobile only */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* CSS in here for tablet only */
+}
+@media (min-width: 1025px) {
+    /* CSS in here for desktop only */
+}
+
+@media (max-width: 781px) { 
+/*// No Idea*/
+} 
+
+
+/* YDCOZA Reset GeneratePress Flex Break Points */
+@media (min-width: 600px) and (max-width: 1024px) {
+	.wp-block-column:not(:only-child) {
+	    flex-basis: calc(50% - 1em)!important;
+	    flex-grow: 0;
+	}
+}
+@media (max-width: 1024px){
+	.wp-block-columns {
+	    flex-wrap: wrap;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+	.wp-block-column:nth-child(3n),
+	.wp-block-column:nth-child(5n) {
+	    margin-left: 0;
+	}
+}
+
+html {
+	overflow-x: hidden;
+}
+
+/*body .secondary-menu-bar-items,
+#menu-item-10635 {
+	display: none !important;
+}*/
+/*----------------------------------------YDCOZA----------------------------------------*/
+/*  Misc  */
+/*--------------------------------------------------------------------------------------*/
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;/* YDCOZA */
+}
+.ydcoza-hide {
+	display: none;
+	height: 0;
+	overflow: hidden;
+}
+.single-post .inside-article {
+    margin: 0 auto;
+    max-width: 740px;
+}
+/*----------------------------------------YDCOZA----------------------------------------*/
+/*  preloader */
+/*--------------------------------------------------------------------------------------*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 9999;
+}
+#preloader_status {
+    width: 285px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../../inc/images/logo_mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -35px 0 0 -142px;
+}
+/*----------------------------------------YDCOZA----------------------------------------*/
+/*  Main Nav  */
+/*--------------------------------------------------------------------------------------*/
+.inside-navigation.grid-container {
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+/*----------------------------------------YDCOZA----------------------------------------*/
+/*  widgets  */
+/*--------------------------------------------------------------------------------------*/
+/*----------------------------------------YDCOZA----------------------------------------*/
+/*  Footer  */
+/*--------------------------------------------------------------------------------------*/
+.before-site-footer {
+    background: rgb(104,255,123);
+    background: -moz-linear-gradient(90deg, rgba(104,255,123,1) 5%, rgba(0,196,255,1) 82%);
+    background: -webkit-linear-gradient(90deg, rgba(104,255,123,1) 5%, rgba(0,196,255,1) 82%);
+    background: linear-gradient(90deg, rgba(104,255,123,1) 5%, rgba(0,196,255,1) 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#68ff7b",endColorstr="#00c4ff",GradientType=1);
+}
+.site-footer,
+.site-info {
+    background: #000;
+}
+.site-footer a {
+    color: white;
+}
+.site-footer a:hover {
+    color: #00a7ff;
+}
+.site-footer p {
+    margin-bottom: 5px;
+}
+.social-links svg {
+    fill: #00A7FF;
+    width: 16px;
+    height: 16px;
+}
+.social-links a {
+    border: 1px solid #00A7FF;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.widget .social-links svg {
+    fill: white;
+    width: 18px;
+    height: 18px;
+}
+.widget .social-links a {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 10px 10px 0;
+    line-height: 40px;
+    font-size: 20px;
+}
+a.generate-back-to-top {
+    background-color: #00a7ff;
+}
+.generate-back-to-top,
+.generate-back-to-top:visited {
+    bottom: 80px; /* 30px from the bottom of your screen */
+}
+.site-footer {
+    background-image:url('../images/footer-logo.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 20px center;
+}
+@media (max-width: 768px) {
+    .site-footer {
+        background-position: right 10px bottom 100px;
+    }
+    body .site-footer .footer-widget-1,
+    body .site-footer .footer-widget-2,
+    body .site-footer .footer-widget-3,
+    body .site-footer .footer-widget-4 {
+        margin-bottom: 10px;
+    }
+    .site-footer p {
+        margin-bottom: 10px;
+    }
+}
+/*----------------------------------------YDCOZA----------------------------------------*/
+/*  Home */
+/*--------------------------------------------------------------------------------------*/
+ul.home-news-cat-list,
+ul.home-news-cat-list-01 {
+    margin:  0
+}
+ul.home-news-cat-list li a,
+.home-news-cat-list-01 li a,
+ul.home-news-cat-list-features li a,
+.home-sponsored-cat li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    display: block;
+    margin-top: 10px;
+}
+.home-news-cat-list-01 img {
+    width: 100%;
+}
+ul.home-news-cat-list li a:hover,
+.home-news-cat-list-01 li a:hover,
+ul.home-news-cat-list-features li a:hover,
+.home-sponsored-cat li a:hover {
+    color: #00A7FF;
+}
+.home-news-cat-list-01 li a {
+    margin-top: 20px;
+}
+
+ul.home-news-cat-list-features {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.home-news-cat-list-features li {
+    width: 33%;
+    padding: 0 15px 30px 15px;
+}
+
+@media (max-width: 1024px){
+    ul.home-news-cat-list-features li {
+        width: 100%;
+        padding: 0 0 30px 0;
+    }
+}
+.home-sponsored-cat {
+    margin: 0;
+}
+.home-sponsored-cat {
+     display: flex;
+     align-items: center;
+}
+.home-sponsored-cat li {
+    /*width: calc(33.33333% - .83333em);*/
+}
+.home-sponsored-cat .wp-block-latest-posts__featured-image.alignleft {
+    margin-right: 2em;
+}
+
+.home .tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.home h3.tribe-events-calendar-list__event-title a:hover {  
+    text-decoration: none;
+    border: none;
+    color: #00A7FF;
+}
+
+.home .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-subscribe-dropdown {
+    /* float: right; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.home .tribe-events .tribe-events-l-container {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.home .tribe-events .tribe-events-header,
+.home .tribe-events .tribe-events-calendar-list-nav,
+.home .tribe-events .tribe-events-c-subscribe-dropdown__container {
+    display: none;
+}
+.ydcoza-footer-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ydcoza-footer-form .gb-grid-column {
+    width: 33.3%;
+}
+@media (max-width: 768px) {
+    .ydcoza-footer-form .gb-grid-column {
+        width: 100%;
+    }
+}
+.ydcoza-footer-form input[type=email], 
+.ydcoza-footer-form input[type=number], 
+.ydcoza-footer-form input[type=password], 
+.ydcoza-footer-form input[type=search], 
+.ydcoza-footer-form input[type=tel], 
+.ydcoza-footer-form input[type=text], 
+.ydcoza-footer-form input[type=url], 
+.ydcoza-footer-form select, 
+.ydcoza-footer-form textarea,
+.wpcf7 input,
+.wpcf7 select {
+    width: 100%;
+}
+.wpcf7 input[type=checkbox] {
+    width: inherit;
+    margin-right: 20px;
+}
+.ydcoza-footer-form .form-group {
+    padding: 10px;
+}
+.ydcoza-footer-form .sib-OPT_IN-area {
+    font-size: 13px;
+}
+.ydcoza-footer-form input[type=submit],
+.wpcf7 input[type=submit] {
+    /*background-color: green;*/
+    width: 100%;
+
+    box-shadow: 6px 6px 14px -7px rgba(0,0,0,24);
+    -webkit-box-shadow: 6px 6px 14px -7px rgba(0,0,0,24);
+    -moz-box-shadow: 6px 6px 14px -7px rgba(0,0,0,24);
+}
+
+.wpcf7 select {
+    color: #8e7975;
+}
+.wpcf7 p,
+.wpcf7 h5 {
+    margin-bottom: 10px;
+}
+.wpcf7-list-item {
+    margin: 0;
+}
+.footer-widget-1 h2 {
+    color: white;
+    margin-bottom: 8px;
+}
+.footer-widget-1 aside.before-site-footer .footer-widgets-container .inner-padding {
+    padding-bottom: 0;
+}
+.footer-widgets .widget#block-8,
+.footer-widgets .widget#block-9 {
+    margin: 0 0 20px 0;
+}
+
+.lsd-listing-price-class,
+.tribe-events .tribe-events-c-subscribe-dropdown__container {
+    display: none;
+}
+.slideout-navigation.do-overlay .inside-navigation .main-nav {
+    margin-top: 40px;
+}
+body .su-spoiler-closed.su-spoiler-style-default>.su-spoiler-title {
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+body .su-spoiler-title {
+    min-height: 20px;
+    line-height: 20px;
+    padding: 7px 7px 7px 34px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #00a7ff;
+}
+body .su-spoiler-icon {
+color: #222;
+}
+
+/*----------------------------------------YDCOZA----------------------------------------*/
+/*  Related Posts */
+/*--------------------------------------------------------------------------------------*/
+.ydcoza_related_posts {
+    width: 100%; 
+    text-align: center;
+    display: flex;
+}
+.ydcoza_related_posts p {
+    padding: 5px;
+}
+.ydcoza_related_thumb {
+    margin: 0;
+    padding: 0 10px 0 0;
+}
+.ydcoza_related_thumb img {
+    margin: 0; 
+    padding: 0;
+}
+.ydcoza_related_thumb a {
+    display:block;
+}
+.ydcoza_related_thumb a:hover {
+    background-color: #efefef; 
+}
+@media(max-width: 768px) {
+    .ydcoza_related_posts {
+        display: block;
+    }
+    .ydcoza_related_thumb {
+        display: block;
+        width: 100%;
+    }
+}
+@media(min-width: 769px) and (max-width: 1024px) {
+    .ydcoza_related_posts {
+        display: block;
+    }
+    .ydcoza_related_thumb {
+        display: inline-block;
+        width: 48%;
+    }
+}
+
+
+/*@media (min-width: 1025px) {*/
+    .before-site-footerform .wpcf7 input[type=text] {
+        max-width: 33% !important;
+    }
+/*}*/
+
+#block-7 .wpcf7 input[type=text],
+#block-7 .wpcf7 input[type=email] {
+        margin-bottom: 10px;
+    }
+@media (min-width: 1025px) {
+#block-7 .wpcf7 input[type=text],
+#block-7 .wpcf7 input[type=email] {
+        max-width: 31.99% !important;
+        margin-right: 2%;
+    }
+#block-7 .wpcf7 input[type=email] {
+        margin-right: 0%;
+    }
+#block-7 .wpcf7 p.ydcoza_f50 {
+        display: inline-block;
+        width: 49.8%;
+    }
+}
